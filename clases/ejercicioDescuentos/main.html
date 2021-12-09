@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price and discount</title>
+</head>
+<body>
+    <h1>Price and discount</h1>
+
+    <h2>Insert price and discount</h2>
+    <form>
+        <label for="price">Escribe el precio del producto:</label><br>
+        <input type="number" placeholder="Price" id="price" >
+        <br><br>
+        <label for="discount">Escribe el descuento del producto: <br></label>
+        <input type="number" placeholder="Discount" id="discount" >
+        <br><br>
+        <button type="button" onclick="CalculatePriceWithDiscount()" >CalcularPorcentajes y descuentos</button>
+        <br><br>
+        <p id="resultP"></p>
+    </form>
+
+    <script src="./CalcularPorcentajesYDescuentos.js"></script>
+</body>
+</html>

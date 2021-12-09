@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="Precio">Ingrese el valor del articulo: </label>
+        <input type="number" id="Precio" placeholder="Precio"><br>
+        <label for="Cupon">Ingrese el codigo del cupon: </label>
+        <input type="text" id="Cupon" placeholder="Nombre del cupon"><br>
+        <button type="button" onclick="calcularPrecioAPagar()">Calcular precio final</button>
+        <br>
+        <label id="ResultLabel"></label>
+    </form>
+
+    <script src="./Cupones.js"></script>
+</body>
+</html>
